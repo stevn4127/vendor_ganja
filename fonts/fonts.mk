@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/proton/fonts
+LOCAL_PATH := vendor/ganja/fonts
 
 # Copy font files
-include vendor/proton/fonts/font_files.mk
--include vendor/proton/fonts/extra/extra.mk
+include vendor/ganja/fonts/font_files.mk
+-include vendor/ganja/fonts/extra/extra.mk
 
 # Register custom fonts
 PRODUCT_COPY_FILES += \

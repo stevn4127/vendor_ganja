@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/proton/themes/themes.mk)
+$(call inherit-product, vendor/ganja/themes/themes.mk)
 
-LOCAL_PATH := vendor/proton/apps
+LOCAL_PATH := vendor/ganja/apps
 
 # LineageOS apps
 PRODUCT_PACKAGES += \
@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
 # Google apps and services
 ifeq ($(WITH_GMS),true)
 
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+#$(call inherit-product, vendor/gapps/common/common-vendor.mk)
 
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \

@@ -13,13 +13,13 @@
 # limitations under the License.
 
 # Inherit vendor submodules
-$(call inherit-product, vendor/proton/apps/apps.mk)
-$(call inherit-product, vendor/proton/bootanimation/bootanimation.mk)
-$(call inherit-product, vendor/proton/fonts/fonts.mk)
-$(call inherit-product, vendor/proton/overlay/overlay.mk)
-$(call inherit-product, vendor/proton/telephony/telephony.mk)
-$(call inherit-product, vendor/proton/audio/audio.mk)
-$(call inherit-product-if-exists, vendor/proton/signing/dev.mk)
+$(call inherit-product, vendor/ganja/apps/apps.mk)
+$(call inherit-product, vendor/ganja/bootanimation/bootanimation.mk)
+$(call inherit-product, vendor/ganja/fonts/fonts.mk)
+$(call inherit-product, vendor/ganja/overlay/overlay.mk)
+$(call inherit-product, vendor/ganja/telephony/telephony.mk)
+$(call inherit-product, vendor/ganja/audio/audio.mk)
+$(call inherit-product-if-exists, vendor/ganja/signing/dev.mk)
 
 # Flatten APEXs for performance
 OVERRIDE_TARGET_FLATTEN_APEX := true
